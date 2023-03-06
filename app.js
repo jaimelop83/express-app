@@ -18,11 +18,11 @@ app.get('/', (req, res) => {
   })
   
   app.get('/puppies', (req, res) => {
-    res.send(`// Omitted for brevity`)
+    res.send(`Puppies`)
   })
   
   app.get('/kittens', (req, res) => {
-    res.send(` // Omitted for brevity `)
+    res.send(`Kittens`)
   })
 
 
